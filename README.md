@@ -37,10 +37,6 @@ pip3 install requests
 
 You’ve just made a directory to hold your project, set up a virtual environment in which your Python packages won’t interfere with those in your system environment, and we’ve installed Requests, the “HTTP for Humans” library for Python, which is the primary library we’ll be using to build our web crawler. If you’re confused by any of this you may want to ask a mentor to explain bash and/or package managers. You might also have issues due to system differences; let us know if you get stuck.
 
-### What is HTTP?
-
-<TODO>
-
 ### Web crawler overview
 
 Web crawlers are pretty simple. Starting from a certain URL (or a list of URLs), they will check the HTML at that URL for links (and other information) and then follow those links to repeat the process. A web crawler is the basis of many popular tools such as search engines (though search engines such as Google have much harder problems such as “How do we index this information so that it is searchable?”).
@@ -174,10 +170,6 @@ Generators were introduced with PEP 255 (https://www.python.org/dev/peps/pep-025
 
 Perhaps you should combine the approach of using generators with another approach. Also, can you think of any other methods that may be of use?
 
-### Handling HTTP Errors
-
-<TODO>
-
 ### Robots.txt
 
 Robots.txt is a standard for asking “robots” (web crawlers and similar tools) not to crawl certain sites or pages. While it’s easy to ignore these requests, it’s generally a nice thing to account for. Robots.txt files are found in the root directory of a site, so before you crawl `example.com/`` it’s a simple matter to check `example.com/robots.txt` for any exclusions. To keep things simple you are looking for the following directives:
@@ -196,6 +188,7 @@ Right now, our regular expression will not capture links that are more complicat
 2. Our program involves a graph traversal. Right now our algorithm resembles bread-first search. What simple change can we make to get depth-first search?
 3. In addition to each page’s URL, also print its title and the number of child links, in CSV format.
 4. Instead of CSV format, print results in JSON. Can you print a single JSON document while using generators? You can validate your JSON at http://pro.jsonlint.com/.
+5. There are some bugs in our code above. Can you find them and fix them?
 
 ### Conclusion
 
