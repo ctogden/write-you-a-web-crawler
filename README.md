@@ -40,7 +40,8 @@ You’ve just made a directory to hold your project, set up a virtual environmen
 ### Web crawler overview
 
 Web crawlers are pretty simple. Starting from a certain URL (or a list of URLs), they will check the HTML at that URL for links (and other information) and then follow those links to repeat the process. A web crawler is the basis of many popular tools such as search engines (though search engines such as Google have much harder problems such as “How do we index this information so that it is searchable?”).
-Making our first HTTP request
+
+### Making our first HTTP request
 
 Before we can continue, we need to know how to make an HTTP request using the Requests library and, also, how to manipulate the data we receive from the response to that request.
 
