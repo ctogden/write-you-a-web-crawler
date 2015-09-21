@@ -173,7 +173,7 @@ Perhaps you should combine the approach of using generators with another approac
 
 ### Robots.txt
 
-Robots.txt is a standard for asking “robots” (web crawlers and similar tools) not to crawl certain sites or pages. While it’s easy to ignore these requests, it’s generally a nice thing to account for. Robots.txt files are found in the root directory of a site, so before you crawl `example.com/`` it’s a simple matter to check `example.com/robots.txt` for any exclusions. To keep things simple you are looking for the following directives:
+Robots.txt is a standard for asking “robots” (web crawlers and similar tools) not to crawl certain sites or pages. While it’s easy to ignore these requests, it’s generally a nice thing to account for. Robots.txt files are found in the root directory of a site, so before you crawl `example.com/` it’s a simple matter to check `example.com/robots.txt` for any exclusions. To keep things simple you are looking for the following directives:
 
 ```
 User-agent: *
