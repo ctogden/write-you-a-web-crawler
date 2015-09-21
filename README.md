@@ -22,7 +22,7 @@ This guide assumes only basic programming ability and knowledge of data structur
 
 Let’s get the basic setup out of the way now. (Next we’ll give a general overview of the project, and then we’ll jump into writing some code.)
 
-Type the following in terminal:
+If you're on OS X or Linux, type the following in terminal:
 
 ```bash
 mkdir webcrawler
@@ -34,6 +34,10 @@ source venv/bin/activate
 
 pip3 install requests
 ```
+
+If you are a Windows user, replace `source venv/bin/activate` with `\path\to\venv\Scripts\activate`. 
+
+If pip and/or virtualenv cannot be found, you'll need to update your `$PATH` variable or use the full path to the program.
 
 You’ve just made a directory to hold your project, set up a virtual environment in which your Python packages won’t interfere with those in your system environment, and we’ve installed Requests, the “HTTP for Humans” library for Python, which is the primary library we’ll be using to build our web crawler. If you’re confused by any of this you may want to ask a mentor to explain bash and/or package managers. You might also have issues due to system differences; let us know if you get stuck.
 
