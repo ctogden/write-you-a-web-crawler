@@ -1,5 +1,7 @@
 # Write You a Web Crawler
 
+_Write You a Web Crawler_ is a hackathon springboard project, designed to allow less experienced hackers hit the ground running. It was originally created by [Christopher Ogden](https://github.com/ctogden) for [Unhackathon](http://unhackathon.org) but is free to use with attribution, per the Creative Commons Attribution 4.0 License.
+
 ## Introduction
 
 This springboard project will have you build a simple web crawler in Python using the Requests library. Once you have implemented a basic web crawler and understand how it works, you will have numerous opportunities to expand your crawler to solve interesting problems.
